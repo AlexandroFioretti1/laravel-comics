@@ -3,17 +3,20 @@
         <div>
             <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="" />
         </div>
-        <nav class="h-100 d-flex">
-            <a class="d-flex align-items-center h-100" href="#">CHARACTERS</a>
-            <a class="d-flex align-items-center h-100 c_blue" href="#">COMICS</a>
-            <a class="d-flex align-items-center h-100" href="#">MOVIES</a>
-            <a class="d-flex align-items-center h-100" href="#">TV</a>
-            <a class="d-flex align-items-center h-100" href="#">GAMES</a>
-            <a class="d-flex align-items-center h-100" href="#">COLLECTIBLES</a>
-            <a class="d-flex align-items-center h-100" href="#">VIDEOS</a>
-            <a class="d-flex align-items-center h-100" href="#">FANS</a>
-            <a class="d-flex align-items-center h-100" href="#">NEWS</a>
-            <a class="d-flex align-items-center h-100" href="#">SHOP</a>
+        <nav class="justify-content-between">
+            <ul class="list-unstyled d-flex gap-3">
+                <li><a href="#">CHARACTERS</a></li>
+                <li><a href="#">COMICS</a></li>
+                <li><a href="#">MOVIES</a></li>
+                <li><a href="#">TV</a></li>
+                <li><a href="#">GAMES</a></li>
+                <li><a href="#">COLLECTIBLES</a></li>
+                <li><a href="#">VIDEOS</a></li>
+                <li><a href="#">FANS</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">SHOP</a></li>
+            </ul>
         </nav>
+        <input type="search" placeholder="search">
     </div>
 </div>

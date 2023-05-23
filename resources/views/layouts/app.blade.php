@@ -19,12 +19,13 @@
     @include('partials.header')
     @include('partials.jumbo')
     <main>
+
         <div>
 
         </div>
     </main>
+    @include('partials.brand')
     @include('partials.footer')
-
 </body>
 
 </html>

@@ -1,9 +1,9 @@
 <footer>
     <div class="bg-dark color-light d-flex justify-content-between align-items-center ">
-        <div id="links" class="d-flex text-light">
+        <div class="d-flex text-light">
             <div>
                 <h4>DC COMICS</h4>
-                <ul class="list-unstyled text-decoration-none">
+                <ul class="list-unstyled ">
                     <li><a href="#">Characters</a></li>
                     <li><a href="#">Comics</a></li>
                     <li><a href="#">Movies</a></li>
@@ -13,14 +13,14 @@
                     <li><a href="#">News</a></li>
                 </ul>
                 <h4>SHOP</h4>
-                <ul class="list-unstyled text-decoration-none">
+                <ul class="list-unstyled">
                     <li><a href="#">Shop DC</a></li>
                     <li><a href="#">Shop DC Collectibles</a></li>
                 </ul>
             </div>
             <div class="mx-5">
                 <h4>DC</h4>
-                <ul class="list-unstyled text-decoration-none">
+                <ul class="list-unstyled ">
                     <li><a href="#">Terms Of Use</a></li>
                     <li><a href="#">Privacy policy (New)</a></li>
                     <li><a href="#">Ad Choices</a></li>
@@ -36,7 +36,7 @@
             </div>
             <div>
                 <h4>SITES</h4>
-                <ul class="list-unstyled text-decoration-none">
+                <ul class="list-unstyled">
                     <li><a href="#">DC</a></li>
                     <li><a href="#">MAD Magazine</a></li>
                     <li><a href="#">DC Kids</a></li>
@@ -46,11 +46,11 @@
             </div>
         </div>
         <div>
-            <img height="400" src="{{ Vite::asset('resources/img/favicon.ico') }}" alt="DC Logo BG" />
+            <img height="340" src="{{ Vite::asset('resources/img/favicon.ico') }}" alt="DC Logo BG" />
         </div>
     </div>
-    </section>
-    <div class="py-5 bg_footer">
+
+    <div class="py-5 bg-dark color-light">
         <div class="container d-flex justify-content-between align-items-center">
             <button>SIGN-UP NOW!</button>
             <div class="d-flex align-items-center">
